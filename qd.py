@@ -11,7 +11,8 @@ import sys
 
 # t00ls 账号配置
 
-username=sys.argv[1]
+#username=sys.argv[1]
+username="1124920146"
 password=sys.argv[2]
 question_num = 5  # 安全提问 参考下面
 question_answer = sys.argv[3]  # 安全提问答案
