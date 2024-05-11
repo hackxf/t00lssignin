@@ -5,7 +5,8 @@ on:
     branches: 
       - main
   schedule:
-    - cron: '0 17 * * *'
+    - cron: '0 22 * * *' # 每天早上6:00（UTC+8）
+    - cron: '0 10 * * *' # 每天晚上6:00（UTC+8）
 
 permissions:
   contents: read
